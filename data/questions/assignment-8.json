@@ -1,0 +1,422 @@
+[
+  {
+    "questionId": "assignment-8-q01",
+    "assignmentId": "assignment-8",
+    "questionNumber": 1,
+    "questionText": "Which of the following is listed as a problem in traditional (non-SDN) mobile networks?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Too flexible hardware architecture"
+      },
+      {
+        "key": "B",
+        "text": "Excess centralized control"
+      },
+      {
+        "key": "C",
+        "text": "Very low operational cost"
+      },
+      {
+        "key": "D",
+        "text": "Difficult to scale due to static, over-provisioned networks"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Traditional mobile networks are difficult to scale because static, over-provisioned networks are inflexible to manage high-demand mobile traffic; they are also difficult to manage, inflexible, and cost-expensive."
+  },
+  {
+    "questionId": "assignment-8-q02",
+    "assignmentId": "assignment-8",
+    "questionNumber": 2,
+    "questionText": "In the ODIN architecture for software-defined wireless networks, what does the 'Odin agent' do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It is placed at the controller end to manage policies"
+      },
+      {
+        "key": "B",
+        "text": "It replaces the OpenFlow protocol entirely"
+      },
+      {
+        "key": "C",
+        "text": "It is placed with the physical devices to communicate with the controller"
+      },
+      {
+        "key": "D",
+        "text": "It performs billing for cloud resources"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "In ODIN, an agent is placed at access points (with the physical devices) to communicate with the controller, while the Odin master resides at the controller end."
+  },
+  {
+    "questionId": "assignment-8-q03",
+    "assignmentId": "assignment-8",
+    "questionNumber": 3,
+    "questionText": "What is the primary goal of Mobi-Flow's proactive rule placement approach in Software-Defined IoT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To place flow-rules randomly across all access points"
+      },
+      {
+        "key": "B",
+        "text": "To predict users' future location and place flow-rules at APs accordingly"
+      },
+      {
+        "key": "C",
+        "text": "To eliminate the need for a controller"
+      },
+      {
+        "key": "D",
+        "text": "To increase the number of PACKET-IN messages"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Mobi-Flow predicts the location of end-users at time (t+1) while they are at time (t), and places flow-rules at the access points that can be associated with the users based on their predicted locations, using an order-K Markov predictor."
+  },
+  {
+    "questionId": "assignment-8-q04",
+    "assignmentId": "assignment-8",
+    "questionNumber": 4,
+    "questionText": "Which simulation tool is mentioned in the lecture for experimenting with wireless software-defined networks, supporting both wired and wireless (IEEE 802.11) protocols?",
+    "options": [
+      {
+        "key": "A",
+        "text": "CloudSim"
+      },
+      {
+        "key": "B",
+        "text": "NS2"
+      },
+      {
+        "key": "C",
+        "text": "GreenCloud"
+      },
+      {
+        "key": "D",
+        "text": "Mininet-WiFi"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Mininet-WiFi can be used to deploy a network supporting both wired (Ethernet) and wireless (WiFi, IEEE 802.11) protocols, while ONOS can be used to place the controllers."
+  },
+  {
+    "questionId": "assignment-8-q05",
+    "assignmentId": "assignment-8",
+    "questionNumber": 5,
+    "questionText": "According to the NIST definition quoted in the lecture, cloud computing enables on-demand network access to a shared pool of what?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fixed, dedicated hardware resources"
+      },
+      {
+        "key": "B",
+        "text": "Configurable computing resources"
+      },
+      {
+        "key": "C",
+        "text": "Only storage resources"
+      },
+      {
+        "key": "D",
+        "text": "Only networking resources"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "NIST defines cloud computing as a model for enabling convenient, on-demand network access to a shared pool of configurable computing resources such as networks, servers, storage, and applications."
+  },
+  {
+    "questionId": "assignment-8-q06",
+    "assignmentId": "assignment-8",
+    "questionNumber": 6,
+    "questionText": "Which of the following is one of the essential characteristics of cloud computing as defined by NIST?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rapid elasticity"
+      },
+      {
+        "key": "B",
+        "text": "Manual resource allocation"
+      },
+      {
+        "key": "C",
+        "text": "Single-tenant only access"
+      },
+      {
+        "key": "D",
+        "text": "Fixed billing regardless of usage"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "NIST lists rapid elasticity as an essential characteristic, meaning cloud resource allocation and release should be rapid, elastic, and automatic, giving consumers the impression of infinite resources."
+  },
+  {
+    "questionId": "assignment-8-q07",
+    "assignmentId": "assignment-8",
+    "questionNumber": 7,
+    "questionText": "Which cloud deployment model is set up for the exclusive use of a single organization, typically managed on-premises or by a third party off-premises?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Public cloud"
+      },
+      {
+        "key": "B",
+        "text": "Private cloud"
+      },
+      {
+        "key": "C",
+        "text": "Community cloud"
+      },
+      {
+        "key": "D",
+        "text": "Multi-cloud"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A private cloud is a cloud set-up functioned only for a single organization, typically managed by the organization itself (on-premises) or by a third party (off-premises)."
+  },
+  {
+    "questionId": "assignment-8-q08",
+    "assignmentId": "assignment-8",
+    "questionNumber": 8,
+    "questionText": "Which of the following is given as an example of a public cloud provider in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Amazon Web Services (AWS)"
+      },
+      {
+        "key": "B",
+        "text": "A company's internal private data center"
+      },
+      {
+        "key": "C",
+        "text": "A single organization's dedicated server room"
+      },
+      {
+        "key": "D",
+        "text": "A community-only cloud shared by hospitals"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Public cloud examples given include Amazon Web Services (AWS), Google Compute Engine, and Microsoft Azure — cloud set-ups available for the use of any person or industry."
+  },
+  {
+    "questionId": "assignment-8-q09",
+    "assignmentId": "assignment-8",
+    "questionNumber": 9,
+    "questionText": "Which cloud service model provides on-demand delivery of computing infrastructure such as servers, storage, network, and operating system?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SaaS"
+      },
+      {
+        "key": "B",
+        "text": "PaaS"
+      },
+      {
+        "key": "C",
+        "text": "IaaS"
+      },
+      {
+        "key": "D",
+        "text": "DBaaS"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Infrastructure-as-a-Service (IaaS) contains the basic building blocks for cloud IT, providing access to networking features, computers (virtual or dedicated hardware), storage, and operating systems."
+  },
+  {
+    "questionId": "assignment-8-q10",
+    "assignmentId": "assignment-8",
+    "questionNumber": 10,
+    "questionText": "In the IaaS working methodology, which component allows multiple virtual machines to share the same physical hardware?",
+    "options": [
+      {
+        "key": "A",
+        "text": "DNS server"
+      },
+      {
+        "key": "B",
+        "text": "Load balancer"
+      },
+      {
+        "key": "C",
+        "text": "Firewall"
+      },
+      {
+        "key": "D",
+        "text": "Hypervisor"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "In IaaS, the hypervisor sits above the physical hardware and manages multiple virtual machines (VMs), each running its own operating system, on a virtualized server."
+  },
+  {
+    "questionId": "assignment-8-q11",
+    "assignmentId": "assignment-8",
+    "questionNumber": 11,
+    "questionText": "Which cloud service model is described as 'application middleware offered as a service to developers', removing the need to manage underlying hardware and operating systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "IaaS"
+      },
+      {
+        "key": "B",
+        "text": "SaaS"
+      },
+      {
+        "key": "C",
+        "text": "PaaS"
+      },
+      {
+        "key": "D",
+        "text": "Community Cloud"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Platform-as-a-Service (PaaS) removes the need for organizations to manage underlying infrastructure (hardware and OS) and lets developers focus on deploying and managing their applications; it is described as application middleware offered as a service."
+  },
+  {
+    "questionId": "assignment-8-q12",
+    "assignmentId": "assignment-8",
+    "questionNumber": 12,
+    "questionText": "What is the primary purpose of a Service Level Agreement (SLA) in cloud service management?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To define the physical location of the data center"
+      },
+      {
+        "key": "B",
+        "text": "To define the non-functional requirements expected from the service provider"
+      },
+      {
+        "key": "C",
+        "text": "To specify the programming language used by the cloud provider"
+      },
+      {
+        "key": "D",
+        "text": "To list the hardware vendors used by the provider"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "An SLA defines the non-functional requirements expected from the service provider and provides a roadmap with clearly defined deliverables, describing the quality, utility, and warranty of services expected by the customer."
+  },
+  {
+    "questionId": "assignment-8-q13",
+    "assignmentId": "assignment-8",
+    "questionNumber": 13,
+    "questionText": "In cloud service accounting and billing, what does 'service accounting' primarily aim to obtain?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Resource usage information, typically in the form of records"
+      },
+      {
+        "key": "B",
+        "text": "The physical address of end-users"
+      },
+      {
+        "key": "C",
+        "text": "The source code of hosted applications"
+      },
+      {
+        "key": "D",
+        "text": "The marketing budget of the provider"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Service accounting aims to obtain resource usage information, typically in the form of records, depending on infrastructure and service monitoring where usage information is obtained from metric measurements."
+  },
+  {
+    "questionId": "assignment-8-q14",
+    "assignmentId": "assignment-8",
+    "questionNumber": 14,
+    "questionText": "What is the main purpose of using cloud simulators such as CloudSim before actual deployment?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To permanently replace the need for real cloud infrastructure"
+      },
+      {
+        "key": "B",
+        "text": "To physically manufacture cloud hardware"
+      },
+      {
+        "key": "C",
+        "text": "To increase the billing cost of cloud services"
+      },
+      {
+        "key": "D",
+        "text": "To provide a reliable, scalable, and repeatable environment for pre-deployment performance evaluation"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Simulation tools provide a reliable, scalable, and repeatable environment for performance evaluation, facilitating pre-deployment tests of services at no cost and enabling repeatable evaluation."
+  },
+  {
+    "questionId": "assignment-8-q15",
+    "assignmentId": "assignment-8",
+    "questionNumber": 15,
+    "questionText": "CloudSim, a widely used cloud simulation framework, was developed at which institution and is based on which programming language?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stanford University, based on Python"
+      },
+      {
+        "key": "B",
+        "text": "CLOUDS Lab, University of Melbourne, based on Java"
+      },
+      {
+        "key": "C",
+        "text": "MIT, based on C++"
+      },
+      {
+        "key": "D",
+        "text": "IIT Kharagpur, based on JavaScript"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "CloudSim is a simulation framework that models cloud computing environments (data centers, VMs, applications, users, and network topology), written in a Java-based environment, and developed at the CLOUDS Lab of the University of Melbourne."
+  }
+]

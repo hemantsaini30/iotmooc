@@ -1,0 +1,406 @@
+[
+  {
+    "questionId": "assignment-5-q01",
+    "assignmentId": "assignment-5",
+    "questionNumber": 1,
+    "questionText": "What does interoperability allow IoT devices to do?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Communicate and exchange data"
+      },
+      {
+        "key": "B",
+        "text": "Work only offline"
+      },
+      {
+        "key": "C",
+        "text": "Use only one protocol"
+      },
+      {
+        "key": "D",
+        "text": "Disable other devices"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Interoperability enables different IoT devices and systems to communicate and exchange data."
+  },
+  {
+    "questionId": "assignment-5-q02",
+    "assignmentId": "assignment-5",
+    "questionNumber": 2,
+    "questionText": "Syntactic interoperability deals with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Message format"
+      },
+      {
+        "key": "B",
+        "text": "Battery size"
+      },
+      {
+        "key": "C",
+        "text": "Device colour"
+      },
+      {
+        "key": "D",
+        "text": "Sensor weight"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Syntactic interoperability concerns the format of messages exchanged between devices and users."
+  },
+  {
+    "questionId": "assignment-5-q03",
+    "assignmentId": "assignment-5",
+    "questionNumber": 3,
+    "questionText": "What does UMB stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Universal Middleware Bridge"
+      },
+      {
+        "key": "B",
+        "text": "Unified Mobile Board"
+      },
+      {
+        "key": "C",
+        "text": "Universal Memory Block"
+      },
+      {
+        "key": "D",
+        "text": "User Management Bridge"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "UMB stands for Universal Middleware Bridge. It helps different middleware-based devices work together."
+  },
+  {
+    "questionId": "assignment-5-q04",
+    "assignmentId": "assignment-5",
+    "questionNumber": 4,
+    "questionText": "What is the operating voltage of the Arduino UNO?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.3 V"
+      },
+      {
+        "key": "B",
+        "text": "5 V"
+      },
+      {
+        "key": "C",
+        "text": "9 V"
+      },
+      {
+        "key": "D",
+        "text": "12 V"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The Arduino UNO operates at 5 volts."
+  },
+  {
+    "questionId": "assignment-5-q05",
+    "assignmentId": "assignment-5",
+    "questionNumber": 5,
+    "questionText": "What is a program written in the Arduino IDE called?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Packet"
+      },
+      {
+        "key": "B",
+        "text": "Sketch"
+      },
+      {
+        "key": "C",
+        "text": "Frame"
+      },
+      {
+        "key": "D",
+        "text": "Query"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A program created and uploaded using the Arduino IDE is called a sketch."
+  },
+  {
+    "questionId": "assignment-5-q06",
+    "assignmentId": "assignment-5",
+    "questionNumber": 6,
+    "questionText": "Which interface is mainly used to connect an Arduino UNO to a computer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "HDMI"
+      },
+      {
+        "key": "B",
+        "text": "USB"
+      },
+      {
+        "key": "C",
+        "text": "VGA"
+      },
+      {
+        "key": "D",
+        "text": "Ethernet"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The Arduino UNO uses a USB interface to connect to a computer. The USB connection can be used to upload programs to the board and also provide power during development."
+  },
+  {
+    "questionId": "assignment-5-q07",
+    "assignmentId": "assignment-5",
+    "questionNumber": 7,
+    "questionText": "What is the conventional starting index of an array in Arduino programming?",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "As in C and C++, Arduino arrays use zero-based indexing. Therefore, the first element is stored at index 0."
+  },
+  {
+    "questionId": "assignment-5-q08",
+    "assignmentId": "assignment-5",
+    "questionNumber": 8,
+    "questionText": "Which Arduino function is used to generate a pseudo-random number within a specified range?",
+    "options": [
+      {
+        "key": "A",
+        "text": "random()"
+      },
+      {
+        "key": "B",
+        "text": "pinMode()"
+      },
+      {
+        "key": "C",
+        "text": "digitalWrite()"
+      },
+      {
+        "key": "D",
+        "text": "attachInterrupt()"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The random() function generates a pseudo-random number in a specified range. For example, random(max) produces a value within the range defined by max."
+  },
+  {
+    "questionId": "assignment-5-q09",
+    "assignmentId": "assignment-5",
+    "questionNumber": 9,
+    "questionText": "In the traffic-control example, which LED is switched ON first to represent the GO signal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Red LED"
+      },
+      {
+        "key": "B",
+        "text": "Yellow LED"
+      },
+      {
+        "key": "C",
+        "text": "Green LED"
+      },
+      {
+        "key": "D",
+        "text": "All three LEDs simultaneously"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The traffic() function first sets the green LED HIGH and displays the GO message. After a delay, it switches to yellow and then red."
+  },
+  {
+    "questionId": "assignment-5-q10",
+    "assignmentId": "assignment-5",
+    "questionNumber": 10,
+    "questionText": "Which quantities are measured by a DHT sensor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temperature and humidity"
+      },
+      {
+        "key": "B",
+        "text": "Distance and speed"
+      },
+      {
+        "key": "C",
+        "text": "Light and sound"
+      },
+      {
+        "key": "D",
+        "text": "Pressure and altitude"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A DHT sensor measures the temperature and humidity of its surroundings."
+  },
+  {
+    "questionId": "assignment-5-q11",
+    "assignmentId": "assignment-5",
+    "questionNumber": 11,
+    "questionText": "What does a sensor convert a physical quantity into?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A software program"
+      },
+      {
+        "key": "B",
+        "text": "Mechanical motion"
+      },
+      {
+        "key": "C",
+        "text": "A network address"
+      },
+      {
+        "key": "D",
+        "text": "An electrical signal"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "A sensor is an electronic element that converts a physical quantity or measurement into an electrical signal."
+  },
+  {
+    "questionId": "assignment-5-q12",
+    "assignmentId": "assignment-5",
+    "questionNumber": 12,
+    "questionText": "In the DHT sensor sketch, delay(2000) causes successive readings to be printed after approximately how much time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.2 seconds"
+      },
+      {
+        "key": "B",
+        "text": "1 second"
+      },
+      {
+        "key": "C",
+        "text": "2 seconds"
+      },
+      {
+        "key": "D",
+        "text": "20 seconds"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The delay() function takes time in milliseconds. Therefore, delay(2000) introduces a delay of 2000 milliseconds, which equals 2 seconds."
+  },
+  {
+    "questionId": "assignment-5-q13",
+    "assignmentId": "assignment-5",
+    "questionNumber": 13,
+    "questionText": "State whether the following statement is True or False.\nStatement: A servo motor is a low-precision motor used only for linear motion.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A servo motor is a high-precision motor that provides controlled rotary motion."
+  },
+  {
+    "questionId": "assignment-5-q14",
+    "assignmentId": "assignment-5",
+    "questionNumber": 14,
+    "questionText": "Which device provides controlled rotary motion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ultrasonic sensor"
+      },
+      {
+        "key": "B",
+        "text": "DHT sensor"
+      },
+      {
+        "key": "C",
+        "text": "PIR sensor"
+      },
+      {
+        "key": "D",
+        "text": "Servo motor"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "A servo motor is an actuator that provides precise and controlled rotary motion."
+  },
+  {
+    "questionId": "assignment-5-q15",
+    "assignmentId": "assignment-5",
+    "questionNumber": 15,
+    "questionText": "State whether the following statement is True or False.\nStatement: A stepper motor is a type of actuator.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A stepper motor is one of the motor actuators discussed in the lecture. Other examples include servo motors, hydraulic motors, solenoids, relays, and AC motors."
+  }
+]

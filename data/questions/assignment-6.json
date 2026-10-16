@@ -1,0 +1,414 @@
+[
+  {
+    "questionId": "assignment-6-q01",
+    "assignmentId": "assignment-6",
+    "questionNumber": 1,
+    "questionText": "What are the five basic data types available in Python, as introduced in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Numbers, Strings, List, Tuple, Dictionary"
+      },
+      {
+        "key": "B",
+        "text": "Integer, Float, Boolean, Char, Byte"
+      },
+      {
+        "key": "C",
+        "text": "Array, Struct, Class, Object, Set"
+      },
+      {
+        "key": "D",
+        "text": "Numbers, Strings, Queue, Stack, Graph"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The lecture states that Python has five data types: Numbers, String, List, Tuple, and Dictionary."
+  },
+  {
+    "questionId": "assignment-6-q02",
+    "assignmentId": "assignment-6",
+    "questionNumber": 2,
+    "questionText": "Which keyword is used to define a function in Python?",
+    "options": [
+      {
+        "key": "A",
+        "text": "func"
+      },
+      {
+        "key": "B",
+        "text": "def"
+      },
+      {
+        "key": "C",
+        "text": "define"
+      },
+      {
+        "key": "D",
+        "text": "function"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A function in Python is defined using the def keyword, followed by the function name and its arguments."
+  },
+  {
+    "questionId": "assignment-6-q03",
+    "assignmentId": "assignment-6",
+    "questionNumber": 3,
+    "questionText": "In Python's exception handling, which keyword is used to handle an exception raised inside the try block?",
+    "options": [
+      {
+        "key": "A",
+        "text": "catch"
+      },
+      {
+        "key": "B",
+        "text": "except"
+      },
+      {
+        "key": "C",
+        "text": "handle"
+      },
+      {
+        "key": "D",
+        "text": "rescue"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Python uses the try, except and else block structure for exception handling; the except block catches the exception raised in the try block."
+  },
+  {
+    "questionId": "assignment-6-q04",
+    "assignmentId": "assignment-6",
+    "questionNumber": 4,
+    "questionText": "Which mode of Python's open() function is used to add data to the end of an existing file without erasing its existing content?",
+    "options": [
+      {
+        "key": "A",
+        "text": "r (read mode)"
+      },
+      {
+        "key": "B",
+        "text": "w (write mode)"
+      },
+      {
+        "key": "C",
+        "text": "a (append mode)"
+      },
+      {
+        "key": "D",
+        "text": "r+ (read and write mode)"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Python supports four basic file modes: r (read), w (write), a (append), and r+ (read and write). The append mode adds new data to the end of the file without deleting existing content."
+  },
+  {
+    "questionId": "assignment-6-q05",
+    "assignmentId": "assignment-6",
+    "questionNumber": 5,
+    "questionText": "Which Python library, installable via pip, is used for image read/write operations as covered in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "NumPy"
+      },
+      {
+        "key": "B",
+        "text": "PIL / Pillow"
+      },
+      {
+        "key": "C",
+        "text": "OpenCV"
+      },
+      {
+        "key": "D",
+        "text": "Matplotlib"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "PIL (Python Image Library) is used to work with image files. It is installed using 'sudo pip install pillow'; PIL supports up to Python 2.7 while Pillow supports Python 3.x."
+  },
+  {
+    "questionId": "assignment-6-q06",
+    "assignmentId": "assignment-6",
+    "questionNumber": 6,
+    "questionText": "Which socket_type value is used while creating a TCP/IP socket in Python's socket module?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SOCK_DGRAM"
+      },
+      {
+        "key": "B",
+        "text": "SOCK_STREAM"
+      },
+      {
+        "key": "C",
+        "text": "SOCK_RAW"
+      },
+      {
+        "key": "D",
+        "text": "SOCK_SEQPACKET"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A socket is created using socket.socket(socket_family, socket_type, protocol). For a TCP/IP (connection-oriented) socket, socket_family is AF_INET and socket_type is SOCK_STREAM."
+  },
+  {
+    "questionId": "assignment-6-q07",
+    "assignmentId": "assignment-6",
+    "questionNumber": 7,
+    "questionText": "How many GPIO pins does the Raspberry Pi 3 Model B have, as shown in the specifications table?",
+    "options": [
+      {
+        "key": "A",
+        "text": "26"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "44"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "As per the specifications table, the Raspberry Pi 3 Model B, Raspberry Pi 2 Model B, and Raspberry Pi Zero all have 40 GPIO pins."
+  },
+  {
+    "questionId": "assignment-6-q08",
+    "assignmentId": "assignment-6",
+    "questionNumber": 8,
+    "questionText": "Which of the following is an officially supported operating system for Raspberry Pi mentioned in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Raspbian"
+      },
+      {
+        "key": "B",
+        "text": "Windows XP"
+      },
+      {
+        "key": "C",
+        "text": "macOS"
+      },
+      {
+        "key": "D",
+        "text": "Solaris"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Raspbian and NOOBS are the officially supported operating systems for Raspberry Pi. Ubuntu Mate, Snappy Ubuntu Core, Windows 10 Core, Pinet, and RISC OS are examples of third-party operating systems."
+  },
+  {
+    "questionId": "assignment-6-q09",
+    "assignmentId": "assignment-6",
+    "questionNumber": 9,
+    "questionText": "Raspberry Pi is best described as a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Printer"
+      },
+      {
+        "key": "B",
+        "text": "Smartphone"
+      },
+      {
+        "key": "C",
+        "text": "Wi-Fi router"
+      },
+      {
+        "key": "D",
+        "text": "Single-board computer"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The lecture introduces Raspberry Pi as a computer that fits in your palm — a low-cost, single-board computer that is easy to access and use."
+  },
+  {
+    "questionId": "assignment-6-q10",
+    "assignmentId": "assignment-6",
+    "questionNumber": 10,
+    "questionText": "Which command is used to install the GPIO library on Raspberry Pi before programming the blinking LED example?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sudo apt-get install python-rpi.gpio"
+      },
+      {
+        "key": "B",
+        "text": "pip install gpio"
+      },
+      {
+        "key": "C",
+        "text": "sudo apt-get install led-lib"
+      },
+      {
+        "key": "D",
+        "text": "npm install rpi-gpio"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "After installing Python development tools using 'sudo apt-get install python-dev', the GPIO library is installed using 'sudo apt-get install python-rpi.gpio'."
+  },
+  {
+    "questionId": "assignment-6-q11",
+    "assignmentId": "assignment-6",
+    "questionNumber": 11,
+    "questionText": "Where is the CSI camera connector slot located on the Raspberry Pi board?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Between the USB ports"
+      },
+      {
+        "key": "B",
+        "text": "Between the Ethernet port and the HDMI port"
+      },
+      {
+        "key": "C",
+        "text": "Next to the power supply pin"
+      },
+      {
+        "key": "D",
+        "text": "On the underside of the board"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The Raspberry Pi Camera connects through a dedicated CSI slot, which is placed between the Ethernet port and the HDMI port on the board."
+  },
+  {
+    "questionId": "assignment-6-q12",
+    "assignmentId": "assignment-6",
+    "questionNumber": 12,
+    "questionText": "Which terminal command captures a still image using the Raspberry Pi camera?",
+    "options": [
+      {
+        "key": "A",
+        "text": "raspistill -o image.jpg"
+      },
+      {
+        "key": "B",
+        "text": "raspicam capture"
+      },
+      {
+        "key": "C",
+        "text": "pi-camera snap"
+      },
+      {
+        "key": "D",
+        "text": "capture.py --img"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Running 'raspistill -o image.jpg' in the terminal captures an image using the Raspberry Pi camera and stores it as image.jpg."
+  },
+  {
+    "questionId": "assignment-6-q13",
+    "assignmentId": "assignment-6",
+    "questionNumber": 13,
+    "questionText": "What does DHT stand for in the DHT sensor used with Raspberry Pi in the auto-cooling system?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Digital Heat Transfer"
+      },
+      {
+        "key": "B",
+        "text": "Digital Humidity and Temperature"
+      },
+      {
+        "key": "C",
+        "text": "Direct Hardware Trigger"
+      },
+      {
+        "key": "D",
+        "text": "Dual Humidity Thermostat"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "DHT stands for Digital Humidity and Temperature Sensor. It has 4 pins: PIN 1 (3.3V–5V power supply), PIN 2 (Data), PIN 3 (Null), and PIN 4 (Ground)."
+  },
+  {
+    "questionId": "assignment-6-q14",
+    "assignmentId": "assignment-6",
+    "questionNumber": 14,
+    "questionText": "How many output terminals does the relay used in the temperature-dependent auto-cooling system have, as shown in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The relay is a mechanical/electromechanical switch with 3 output terminals (left to right): NO (normal open), Common, and NC (normal close)."
+  },
+  {
+    "questionId": "assignment-6-q15",
+    "assignmentId": "assignment-6",
+    "questionNumber": 15,
+    "questionText": "State whether the following statement is True or False.\nStatement: In the temperature-dependent auto-cooling system, the fan operates when the surrounding temperature rises above the threshold value specified in the code.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The lecture demonstrates that the fan is switched on whenever the measured temperature exceeds the threshold value set in the program."
+  }
+]

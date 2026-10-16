@@ -1,0 +1,92 @@
+[
+  {
+    "assignmentId": "assignment-1",
+    "number": 1,
+    "title": "Assignment 1: Introduction to IoT, Sensing and Actuation",
+    "description": "Week 1 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-2",
+    "number": 2,
+    "title": "Assignment 2: IoT Networking Protocols and Connectivity",
+    "description": "Week 2 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-3",
+    "number": 3,
+    "title": "Assignment 3: Wireless Standards: NFC, Bluetooth, Z-Wave and ZigBee",
+    "description": "Week 3 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-4",
+    "number": 4,
+    "title": "Assignment 4: Sensor Networks, UAV Networks and M2M",
+    "description": "Week 4 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-5",
+    "number": 5,
+    "title": "Assignment 5: Interoperability and Arduino Programming",
+    "description": "Week 5 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-6",
+    "number": 6,
+    "title": "Assignment 6: Python and Raspberry Pi Basics",
+    "description": "Week 6 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-7",
+    "number": 7,
+    "title": "Assignment 7: Remote Data Logging and Software-Defined Networking",
+    "description": "Week 7 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-8",
+    "number": 8,
+    "title": "Assignment 8: SDN for IoT and Cloud Computing",
+    "description": "Week 8 practice questions from Introduction to Internet of Things."
+  },
+  {
+    "assignmentId": "assignment-9",
+    "number": 9,
+    "title": "Assignment 9",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-10",
+    "number": 10,
+    "title": "Assignment 10",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-11",
+    "number": 11,
+    "title": "Assignment 11",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-12",
+    "number": 12,
+    "title": "Assignment 12",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-13",
+    "number": 13,
+    "title": "Assignment 13",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-14",
+    "number": 14,
+    "title": "Assignment 14",
+    "description": "Questions will be added soon."
+  },
+  {
+    "assignmentId": "assignment-15",
+    "number": 15,
+    "title": "Assignment 15",
+    "description": "Questions will be added soon."
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "questionId": "assignment-3-q01",
+    "assignmentId": "assignment-3",
+    "questionNumber": 1,
+    "questionText": "State whether the following statement is true or false.\nStatement: There is no network layer in Wired HART",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "There is no network layer in Wired HART."
+  },
+  {
+    "questionId": "assignment-3-q02",
+    "assignmentId": "assignment-3",
+    "questionNumber": 2,
+    "questionText": "Zwave operates at ________ MHz in the US and ________ MHz in Europe.",
+    "options": [
+      {
+        "key": "A",
+        "text": "1008,989"
+      },
+      {
+        "key": "B",
+        "text": "908.42, 868.42"
+      },
+      {
+        "key": "C",
+        "text": "767.56,855.28"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Zwave operates at 908.42 MHz in the US and 868.42 MHz in Europe."
+  },
+  {
+    "questionId": "assignment-3-q03",
+    "assignmentId": "assignment-3",
+    "questionNumber": 3,
+    "questionText": "Dumb behavior of sensor nodes is _______________ in nature (as it is dependent on the effects of the environmental conditions).",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Spatial"
+      },
+      {
+        "key": "C",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Dumb behavior of sensor nodes is Temporal in nature (as it is dependent on the effects of the environmental conditions)."
+  },
+  {
+    "questionId": "assignment-3-q04",
+    "assignmentId": "assignment-3",
+    "questionNumber": 4,
+    "questionText": "The process of identifying channels consistently affected by interference and removing them from use is known as _________________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Channel Trimming"
+      },
+      {
+        "key": "B",
+        "text": "Channel Flushing"
+      },
+      {
+        "key": "C",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Channel Blacklisting identifies channels consistently affected by interference and removes them from use."
+  },
+  {
+    "questionId": "assignment-3-q05",
+    "assignmentId": "assignment-3",
+    "questionNumber": 5,
+    "questionText": "The full form of NFC is",
+    "options": [
+      {
+        "key": "A",
+        "text": "Near Field Contact"
+      },
+      {
+        "key": "B",
+        "text": "Near Field Communication"
+      },
+      {
+        "key": "C",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "key": "D",
+        "text": "Neither (a) nor (b)"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The full form of NFC is Near Field Communication."
+  },
+  {
+    "questionId": "assignment-3-q06",
+    "assignmentId": "assignment-3",
+    "questionNumber": 6,
+    "questionText": "State true or false.\nNFC works on the principle of magnetic induction.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "NFC works on the principle of magnetic induction."
+  },
+  {
+    "questionId": "assignment-3-q07",
+    "assignmentId": "assignment-3",
+    "questionNumber": 7,
+    "questionText": "State whether the following statement is true or false.\nStatement: NFC tags found in supermarket products are examples of active NFC.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Passive NFC tags found in supermarket products are examples of passive NFC."
+  },
+  {
+    "questionId": "assignment-3-q08",
+    "assignmentId": "assignment-3",
+    "questionNumber": 8,
+    "questionText": "Bluetooth is based on ___________.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nanonets"
+      },
+      {
+        "key": "B",
+        "text": "Binarynets"
+      },
+      {
+        "key": "C",
+        "text": "Both (a) and (b)"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "Bluetooth is based on Piconets."
+  },
+  {
+    "questionId": "assignment-3-q09",
+    "assignmentId": "assignment-3",
+    "questionNumber": 9,
+    "questionText": "A __________ in NFC emits a small electric current which creates a magnetic field that in turn bridges the physical space between the devices.",
+    "options": [
+      {
+        "key": "A",
+        "text": "reader"
+      },
+      {
+        "key": "B",
+        "text": "writer"
+      },
+      {
+        "key": "C",
+        "text": "destroyer"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A reader in NFC emits a small electric current which creates a magnetic field that in turn bridges the physical space between the devices"
+  },
+  {
+    "questionId": "assignment-3-q10",
+    "assignmentId": "assignment-3",
+    "questionNumber": 10,
+    "questionText": "State true of false.\nBluetooth technology is based on Ad-hoc network technology.",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Bluetooth technology is based on Ad-hoc network technology."
+  },
+  {
+    "questionId": "assignment-3-q11",
+    "assignmentId": "assignment-3",
+    "questionNumber": 11,
+    "questionText": "State true or false.\nZwave utilizes GFSK modulation and Hongkong channel encoding.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Zwave utilizes GFSK modulation and Manchester channel encoding."
+  },
+  {
+    "questionId": "assignment-3-q12",
+    "assignmentId": "assignment-3",
+    "questionNumber": 12,
+    "questionText": "The process of bypassing radio dead-spots is done using a message called ________ in Zwave.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ping"
+      },
+      {
+        "key": "B",
+        "text": "Healing"
+      },
+      {
+        "key": "C",
+        "text": "Frame"
+      },
+      {
+        "key": "D",
+        "text": "None of these"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The process of bypassing radio dead-spots is done using a message called Healing in Zwave."
+  },
+  {
+    "questionId": "assignment-3-q13",
+    "assignmentId": "assignment-3",
+    "questionNumber": 13,
+    "questionText": "State whether the following statement is true or false.\nStatement: Sensor nodes have unlimited battery life.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Sensors nodes have limited battery life."
+  },
+  {
+    "questionId": "assignment-3-q14",
+    "assignmentId": "assignment-3",
+    "questionNumber": 14,
+    "questionText": "State whether the following statement is true or false.\nStatement: The Link Manager Protocol in Bluetooth manages the establishment, authentication, link configuration.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The Link Manager Protocol in Bluetooth manages the establishment, authentication, link configuration."
+  },
+  {
+    "questionId": "assignment-3-q15",
+    "assignmentId": "assignment-3",
+    "questionNumber": 15,
+    "questionText": "Zigbee commonly uses __________data rate.",
+    "options": [
+      {
+        "key": "A",
+        "text": "250 kbps"
+      },
+      {
+        "key": "B",
+        "text": "250 Mbps"
+      },
+      {
+        "key": "C",
+        "text": "260 kbps"
+      },
+      {
+        "key": "D",
+        "text": "260 Mbps"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "Zigbee commonly uses 250 kbps data rate."
+  }
+]

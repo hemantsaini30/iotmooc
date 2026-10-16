@@ -1,0 +1,399 @@
+[
+  {
+    "questionId": "assignment-1-q01",
+    "assignmentId": "assignment-1",
+    "questionNumber": 1,
+    "questionText": "According to the ITU Internet Report 2005 discussed in the lecture, the future Internet is expected to become wider and more complex mainly because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Humans will completely stop using the Internet"
+      },
+      {
+        "key": "B",
+        "text": "Most Internet traffic may flow between devices and different kinds of things"
+      },
+      {
+        "key": "C",
+        "text": "Only desktop computers will remain connected"
+      },
+      {
+        "key": "D",
+        "text": "Internet communication will be restricted to email services"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The ITU report describes a future where humans may become a minority as generators and receivers of traffic. Instead, communication will increasingly happen between devices and “things,” forming the Internet of Things."
+  },
+  {
+    "questionId": "assignment-1-q02",
+    "assignmentId": "assignment-1",
+    "questionNumber": 2,
+    "questionText": "Which of the following are characteristics of IoT systems?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Efficient and scalable architecture"
+      },
+      {
+        "key": "B",
+        "text": "Unambiguous naming and addressing"
+      },
+      {
+        "key": "C",
+        "text": "Presence of sleeping nodes, mobile nodes, and non-IP devices"
+      },
+      {
+        "key": "D",
+        "text": "Guaranteed continuous connectivity for every device at all times"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "IoT systems require scalable architecture, clear naming and addressing, and must support heterogeneous devices such as sleeping nodes, mobile nodes, and non-IP devices. However, IoT systems may have intermittent connectivity, so option d is incorrect."
+  },
+  {
+    "questionId": "assignment-1-q03",
+    "assignmentId": "assignment-1",
+    "questionNumber": 3,
+    "questionText": "In the lecture, “Smart Dust” refers to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A cloud storage model for IoT data"
+      },
+      {
+        "key": "B",
+        "text": "A large-scale wireless router used in smart cities"
+      },
+      {
+        "key": "C",
+        "text": "Very tiny computing devices that can be sprayed or injected for sensing purposes"
+      },
+      {
+        "key": "D",
+        "text": "A type of IPv6 address used in IoT networks"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "Smart Dust refers to extremely small computing devices, smaller than a grain of sand, that can be used to measure chemicals in soil or diagnose problems in the human body."
+  },
+  {
+    "questionId": "assignment-1-q04",
+    "assignmentId": "assignment-1",
+    "questionNumber": 4,
+    "questionText": "Which statement best explains the relation between IoT and M2M communication?",
+    "options": [
+      {
+        "key": "A",
+        "text": "IoT and M2M are exactly the same"
+      },
+      {
+        "key": "B",
+        "text": "M2M is broader than IoT because it includes people and applications"
+      },
+      {
+        "key": "C",
+        "text": "M2M is a part of IoT, while IoT has a broader scope of interactions"
+      },
+      {
+        "key": "D",
+        "text": "IoT does not include machine-to-machine interaction"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "M2M focuses mainly on communication among machines and devices. IoT is broader because it includes interactions between things, people, applications, and systems."
+  },
+  {
+    "questionId": "assignment-1-q05",
+    "assignmentId": "assignment-1",
+    "questionNumber": 5,
+    "questionText": "State whether the following statement is True or False.\nStatement: In the Web of Things, IoT sensors are replaced completely by cloud databases.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The Web of Things does not replace sensors. Sensors remain responsible for collecting physical-world data, while web technologies help expose and access IoT resources."
+  },
+  {
+    "questionId": "assignment-1-q06",
+    "assignmentId": "assignment-1",
+    "questionNumber": 6,
+    "questionText": "In an IoT network configuration, local addresses may be valid only within a gateway’s domain. The same local address may even appear under another gateway. The main advantage of this strategy is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "It increases unnecessary address consumption"
+      },
+      {
+        "key": "B",
+        "text": "It helps conserve address space"
+      },
+      {
+        "key": "C",
+        "text": "It removes the requirement of a gateway"
+      },
+      {
+        "key": "D",
+        "text": "It prevents any device from communicating with the Internet"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Using locally valid addresses within a gateway’s domain allows address reuse across different gateway domains. This helps avoid unnecessary wastage of global addresses."
+  },
+  {
+    "questionId": "assignment-1-q07",
+    "assignmentId": "assignment-1",
+    "questionNumber": 7,
+    "questionText": "Which of the following functions are associated with IoT gateways in the addressing strategy discussed in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Providing Internet connectivity"
+      },
+      {
+        "key": "B",
+        "text": "Supporting IoT LAN intra-connectivity"
+      },
+      {
+        "key": "C",
+        "text": "Obtaining upstream address prefixes using mechanisms such as DHCPv6"
+      },
+      {
+        "key": "D",
+        "text": "Delegating addresses to nodes using SLAAC"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "IoT gateways can provide Internet connectivity and IoT LAN intra-connectivity. They may obtain upstream prefixes through DHCPv6 and delegate them to nodes using SLAAC."
+  },
+  {
+    "questionId": "assignment-1-q08",
+    "assignmentId": "assignment-1",
+    "questionNumber": 8,
+    "questionText": "Which of the following is true about IPv6 compared to IPv4?",
+    "options": [
+      {
+        "key": "A",
+        "text": "IPv6 uses dotted decimal notation"
+      },
+      {
+        "key": "B",
+        "text": "IPv6 has a smaller address space than IPv4"
+      },
+      {
+        "key": "C",
+        "text": "IPv6 uses hexadecimal notation and supports a much larger address space"
+      },
+      {
+        "key": "D",
+        "text": "IPv6 requires broadcast addresses in the same way as IPv4"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "IPv4 uses 32-bit addresses and dotted decimal notation, whereas IPv6 uses 128-bit addresses and hexadecimal notation. This makes IPv6 more suitable for large-scale IoT addressing."
+  },
+  {
+    "questionId": "assignment-1-q09",
+    "assignmentId": "assignment-1",
+    "questionNumber": 9,
+    "questionText": "Which statement correctly represents the design expectation from a good sensor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It should influence the measured property significantly"
+      },
+      {
+        "key": "B",
+        "text": "It should respond strongly to unrelated physical properties"
+      },
+      {
+        "key": "C",
+        "text": "It should be sensitive to the measured property and should not disturb it"
+      },
+      {
+        "key": "D",
+        "text": "It should always produce random output"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "A good sensor should measure the desired property, remain insensitive to unrelated properties, and should not influence or alter the measured quantity."
+  },
+  {
+    "questionId": "assignment-1-q10",
+    "assignmentId": "assignment-1",
+    "questionNumber": 10,
+    "questionText": "Which of the following statements about sensor resolution are correct?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sensor resolution is the smallest change that the sensor can detect"
+      },
+      {
+        "key": "B",
+        "text": "For a digital sensor, resolution is related to the smallest digital output change it can process"
+      },
+      {
+        "key": "C",
+        "text": "Sensor resolution and sensor accuracy always refer to exactly the same property"
+      },
+      {
+        "key": "D",
+        "text": "Sensor accuracy does not depend only on resolution"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "Resolution refers to the smallest detectable change in the measured quantity. In digital sensors, it is related to the smallest digital output step. However, accuracy and resolution are not the same; a high-resolution sensor may still be inaccurate if it has bias or calibration errors."
+  },
+  {
+    "questionId": "assignment-1-q11",
+    "assignmentId": "assignment-1",
+    "questionNumber": 11,
+    "questionText": "State True or False.\nAn accelerometer that measures acceleration along the x, y, and z coordinate axes is classified as a vector sensor.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "A vector sensor measures quantities that have both magnitude and direction or orientation. Since an accelerometer measures acceleration components along different coordinate axes, such as x, y, and z, it is classified as a vector sensor."
+  },
+  {
+    "questionId": "assignment-1-q12",
+    "assignmentId": "assignment-1",
+    "questionNumber": 12,
+    "questionText": "A sensor gives different output for the same input value depending on whether that input was reached by increasing or decreasing the measured quantity. This error is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Quantization error"
+      },
+      {
+        "key": "B",
+        "text": "Hysteresis error"
+      },
+      {
+        "key": "C",
+        "text": "IPv6 translation error"
+      },
+      {
+        "key": "D",
+        "text": "Gateway prefix error"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Hysteresis error occurs when the sensor output depends on the previous input history. The same present input may give different readings depending on whether the input was approached from a lower or higher value."
+  },
+  {
+    "questionId": "assignment-1-q13",
+    "assignmentId": "assignment-1",
+    "questionNumber": 13,
+    "questionText": "State True or False\nA hydraulic actuator can produce considerable force because liquids are nearly incompressible.",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "A hydraulic actuator uses hydraulic fluid to generate mechanical motion. Since liquids are nearly incompressible, hydraulic actuators can exert large forces."
+  },
+  {
+    "questionId": "assignment-1-q14",
+    "assignmentId": "assignment-1",
+    "questionNumber": 14,
+    "questionText": "Which of the following statements are correct about Shape Memory Polymer actuators?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They may respond to stimuli such as light, heat, electrical, magnetic, pH, or moisture changes"
+      },
+      {
+        "key": "B",
+        "text": "They can show high strain recovery"
+      },
+      {
+        "key": "C",
+        "text": "They may have properties such as low density and biocompatibility"
+      },
+      {
+        "key": "D",
+        "text": "They are used only as passive temperature sensors"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Shape Memory Polymer actuators can respond to different stimuli and are known for features such as low density, high strain recovery, biocompatibility, and biodegradability. They are actuator materials, not merely passive temperature sensors."
+  },
+  {
+    "questionId": "assignment-1-q15",
+    "assignmentId": "assignment-1",
+    "questionNumber": 15,
+    "questionText": "State whether the following statement is True or False.\nStatement: According to the IoT implementation example discussed in the lecture, data gathered by a sensor travels through a gateway and a proxy server before arriving at the cloud server.",
+    "options": [
+      {
+        "key": "A",
+        "text": "True"
+      },
+      {
+        "key": "B",
+        "text": "False"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "In the example IoT implementation, the sensor first collects the data. The data then passes through the gateway and proxy server before reaching the cloud server for further processing and analytics."
+  }
+]

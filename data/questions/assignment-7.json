@@ -1,0 +1,414 @@
+[
+  {
+    "questionId": "assignment-7-q01",
+    "assignmentId": "assignment-7",
+    "questionNumber": 1,
+    "questionText": "In the remote data logging system, which socket type is used to send sensor data from the client to the server?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SOCK_STREAM"
+      },
+      {
+        "key": "B",
+        "text": "SOCK_DGRAM"
+      },
+      {
+        "key": "C",
+        "text": "SOCK_RAW"
+      },
+      {
+        "key": "D",
+        "text": "SOCK_SEQPACKET"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The client creates a UDP socket using socket.socket(socket.AF_INET, socket.SOCK_DGRAM) to send the sensor readings to the server."
+  },
+  {
+    "questionId": "assignment-7-q02",
+    "assignmentId": "assignment-7",
+    "questionNumber": 2,
+    "questionText": "Which Adafruit function is used in the client code to read humidity and temperature values from the DHT sensor?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adafruit_DHT.read_retry()"
+      },
+      {
+        "key": "B",
+        "text": "Adafruit_DHT.get_data()"
+      },
+      {
+        "key": "C",
+        "text": "Adafruit_DHT.sense()"
+      },
+      {
+        "key": "D",
+        "text": "Adafruit_DHT.capture()"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The sensordata() function calls Adafruit_DHT.read_retry(sensor,17), which returns the humidity and temperature values from the DHT sensor."
+  },
+  {
+    "questionId": "assignment-7-q03",
+    "assignmentId": "assignment-7",
+    "questionNumber": 3,
+    "questionText": "Where does the server in the remote data logging example save the data received from the client as mentioned in the lecture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "In a MySQL database"
+      },
+      {
+        "key": "B",
+        "text": "In a text file named Datalog.txt"
+      },
+      {
+        "key": "C",
+        "text": "On a cloud dashboard"
+      },
+      {
+        "key": "D",
+        "text": "In an Excel spreadsheet"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The server code opens 'Datalog.txt' in append mode and writes the received message from the client into this text file."
+  },
+  {
+    "questionId": "assignment-7-q04",
+    "assignmentId": "assignment-7",
+    "questionNumber": 4,
+    "questionText": "Which Python string function is used to split the comma-separated sensor data into separate values on the server?",
+    "options": [
+      {
+        "key": "A",
+        "text": "split()"
+      },
+      {
+        "key": "B",
+        "text": "divide()"
+      },
+      {
+        "key": "C",
+        "text": "partition()"
+      },
+      {
+        "key": "D",
+        "text": "separate()"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The split() function splits a string into multiple strings based on a specified separator/delimiter, e.g. Data.split(\",\") splits data wherever a comma is found."
+  },
+  {
+    "questionId": "assignment-7-q05",
+    "assignmentId": "assignment-7",
+    "questionNumber": 5,
+    "questionText": "State whether the following statement is True or False.\nStatement: Matplotlib Python library is used to plot the temperature and humidity data received at the server in the lecture.",
+    "options": [
+      {
+        "key": "A",
+        "text": "False"
+      },
+      {
+        "key": "B",
+        "text": "True"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "MATPLOTLIB is a Python library used to create 2D plots; functions such as plot(), xlabel(), ylabel(), and title() are used to plot and label the sensor data."
+  },
+  {
+    "questionId": "assignment-7-q06",
+    "assignmentId": "assignment-7",
+    "questionNumber": 6,
+    "questionText": "Which matplotlib function turns on interactive mode so that the plot updates in real time as new data arrives?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ion()"
+      },
+      {
+        "key": "B",
+        "text": "grid()"
+      },
+      {
+        "key": "C",
+        "text": "subplot()"
+      },
+      {
+        "key": "D",
+        "text": "figure()"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "ion() turns on the interactive mode in matplotlib. Other common plotting functions mentioned include figure(), grid(), subplot(), close(), and scatter()."
+  },
+  {
+    "questionId": "assignment-7-q07",
+    "assignmentId": "assignment-7",
+    "questionNumber": 7,
+    "questionText": "In a traditional (non-SDN) network, where does the routing protocol logic (e.g., OSPF) mainly execute?",
+    "options": [
+      {
+        "key": "A",
+        "text": "In a centralized controller"
+      },
+      {
+        "key": "B",
+        "text": "At the individual switches"
+      },
+      {
+        "key": "C",
+        "text": "On the end-user device"
+      },
+      {
+        "key": "D",
+        "text": "In the cloud"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "In the current network, protocols like OSPF execute at the switches, which forward traffic in a distributed manner with no centralized control."
+  },
+  {
+    "questionId": "assignment-7-q08",
+    "assignmentId": "assignment-7",
+    "questionNumber": 8,
+    "questionText": "In which year was the OpenFlow project — from which the idea of software-defined networking originated — presented at ACM SIGCOMM?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2006"
+      },
+      {
+        "key": "B",
+        "text": "2008"
+      },
+      {
+        "key": "C",
+        "text": "2009"
+      },
+      {
+        "key": "D",
+        "text": "2011"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The idea of software-defined networking originated from the OpenFlow project, presented at ACM SIGCOMM in 2008. Stanford published the OpenFlow V1.0.0 specification the following year."
+  },
+  {
+    "questionId": "assignment-7-q09",
+    "assignmentId": "assignment-7",
+    "questionNumber": 9,
+    "questionText": "What message does a switch send to the SDN controller when it receives a packet for which no matching flow-rule exists?",
+    "options": [
+      {
+        "key": "A",
+        "text": "PACKET-IN message"
+      },
+      {
+        "key": "B",
+        "text": "FLOW-REQUEST message"
+      },
+      {
+        "key": "C",
+        "text": "RULE-MISS alert"
+      },
+      {
+        "key": "D",
+        "text": "CONTROL-SYNC message"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "When no flow-rule is present for an incoming request, the switch sends a PACKET-IN message to the controller, which then decides a suitable flow-rule and inserts it at the switch."
+  },
+  {
+    "questionId": "assignment-7-q10",
+    "assignmentId": "assignment-7",
+    "questionNumber": 10,
+    "questionText": "Which SDN API is used for communication between the control layer and the infrastructure layer?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Northbound API"
+      },
+      {
+        "key": "B",
+        "text": "Southbound API"
+      },
+      {
+        "key": "C",
+        "text": "East-Westbound API"
+      },
+      {
+        "key": "D",
+        "text": "North-Southbound API"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The Southbound API is used to communicate between the control layer and the infrastructure layer using the OpenFlow protocol. The Northbound API communicates between the control and application layers."
+  },
+  {
+    "questionId": "assignment-7-q11",
+    "assignmentId": "assignment-7",
+    "questionNumber": 11,
+    "questionText": "According to the lecture, approximately how many requests per second can a typical SDN controller handle through a single thread?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "100"
+      },
+      {
+        "key": "C",
+        "text": "200"
+      },
+      {
+        "key": "D",
+        "text": "500"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The lecture states that a controller can typically handle around 200 requests in a second through a single thread."
+  },
+  {
+    "questionId": "assignment-7-q12",
+    "assignmentId": "assignment-7",
+    "questionNumber": 12,
+    "questionText": "Which control mechanism is described where the entire network's control decisions are taken by a single controller?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Distributed control"
+      },
+      {
+        "key": "B",
+        "text": "Centralized control"
+      },
+      {
+        "key": "C",
+        "text": "Hierarchical control"
+      },
+      {
+        "key": "D",
+        "text": "Federated control"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "In centralized control, control decisions are taken in a centralized manner by a single controller, unlike distributed control where each subnetwork is controlled by a different controller."
+  },
+  {
+    "questionId": "assignment-7-q13",
+    "assignmentId": "assignment-7",
+    "questionNumber": 13,
+    "questionText": "Which of the following is listed as a benefit of integrating SDN with IoT?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Increased hardware cost"
+      },
+      {
+        "key": "B",
+        "text": "Visibility of network resources"
+      },
+      {
+        "key": "C",
+        "text": "Reduced sensor accuracy"
+      },
+      {
+        "key": "D",
+        "text": "Elimination of all controllers"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Benefits of integrating SDN in IoT include intelligent routing decisions, simplified information collection/analysis/decision-making, visibility of network resources, and intelligent traffic pattern analysis."
+  },
+  {
+    "questionId": "assignment-7-q14",
+    "assignmentId": "assignment-7",
+    "questionNumber": 14,
+    "questionText": "According to the lecture, what is a key resource-constraint challenge in wireless sensor networks that motivates software-defined WSN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Excess bandwidth"
+      },
+      {
+        "key": "B",
+        "text": "Limited memory for control programs"
+      },
+      {
+        "key": "C",
+        "text": "Too many controllers"
+      },
+      {
+        "key": "D",
+        "text": "Unlimited computation power"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Wireless sensor network challenges include real-time programming of sensor nodes, vendor-specific architecture, resource-constrained (heavy computation cannot be performed) devices, and limited memory, meaning too many control programs cannot be inserted."
+  },
+  {
+    "questionId": "assignment-7-q15",
+    "assignmentId": "assignment-7",
+    "questionNumber": 15,
+    "questionText": "In the SDN-WISE protocol stack for sensor nodes, what does \"INPP\" stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integrated Node Path Protocol"
+      },
+      {
+        "key": "B",
+        "text": "Internal Node Power Processing"
+      },
+      {
+        "key": "C",
+        "text": "In Network Packet Processing"
+      },
+      {
+        "key": "D",
+        "text": "IoT Network Priority Protocol"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "In the SDN-WISE protocol stack, the forwarding layer above IEEE 802.15.4 consists of flow-rules, and INPP stands for In Network Packet Processing."
+  }
+]
