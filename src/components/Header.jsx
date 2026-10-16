@@ -20,6 +20,7 @@ export default function Header() {
         <nav aria-label="Main" className="hidden items-center gap-1 sm:flex">
           <NavLink to="/" end className={linkClass}>Home</NavLink>
           <NavLink to="/assignments" className={linkClass}>Assignments</NavLink>
+          <NavLink to="/tests" className={linkClass}>Tests</NavLink>
           <ThemeToggle />
         </nav>
         <div className="flex items-center gap-1 sm:hidden">
@@ -35,6 +36,7 @@ export default function Header() {
         <nav id="mobile-nav" aria-label="Mobile" className="flex flex-col gap-1 border-t border-slate-200 px-4 py-3 dark:border-slate-800 sm:hidden">
           <NavLink to="/" end className={linkClass} onClick={() => setOpen(false)}>Home</NavLink>
           <NavLink to="/assignments" className={linkClass} onClick={() => setOpen(false)}>Assignments</NavLink>
+          <NavLink to="/tests" className={linkClass} onClick={() => setOpen(false)}>Tests</NavLink>
         </nav>
       )}
     </header>

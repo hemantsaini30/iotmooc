@@ -4,6 +4,7 @@ import { connectDB } from './db.js';
 import Assignment from './models/Assignment.js';
 import Question from './models/Question.js';
 import Attempt from './models/Attempt.js';
+import testRouter from './testRoutes.js';
 import { buildAttemptView, publicQuestion } from './views.js';
 import { buildAttemptOrder } from '../lib/selection.js';
 import { computeResult, isAnswerCorrect, normalizeSelection } from '../lib/scoring.js';
@@ -35,7 +36,8 @@ async function loadOrderedQuestions(attempt) {
 async function loadAttempt(id) {
   if (!mongoose.isValidObjectId(id)) throw new HttpError(400, 'Invalid attempt id.');
   const attempt = await Attempt.findById(id).lean();
-  if (!attempt) throw new HttpError(404, 'Attempt not found.');
+  // Test attempts (mode 'full') must never be readable or checkable through the practice endpoints.
+  if (!attempt || attempt.mode !== 'practice') throw new HttpError(404, 'Attempt not found.');
   return attempt;
 }
 async function attemptView(attempt) {
@@ -133,5 +135,8 @@ router.post('/attempts/:id/submit', wrap(async (req, res) => {
   }
   res.json(await attemptView(attempt));
 }));
+
+// Random multi-assignment tests: /api/tests/*
+router.use('/tests', testRouter);
 
 export default router;

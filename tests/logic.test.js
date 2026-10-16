@@ -44,14 +44,14 @@ test('full-length selection: unique, right size, throws when pool too small', ()
   const picked = selectRandomQuestions(pool, 60);
   assert.equal(picked.length, 60);
   assert.equal(new Set(picked.map((q) => q.questionId)).size, 60);
-  assert.throws(() => selectRandomQuestions(pool, 120));
+  assert.throws(() => selectRandomQuestions(pool, 90));
 });
 
 test('full-length options are disabled when the bank is too small', () => {
   const opts = getAvailableTestLengths(75);
-  assert.deepEqual(opts.map((o) => o.enabled), [true, false, false]);
-  assert.ok(opts[1].message);
-  assert.deepEqual(getAvailableTestLengths(225).map((o) => o.enabled), [true, true, true]);
+  assert.deepEqual(opts.map((o) => o.enabled), [true, true, false, false]);
+  assert.ok(opts[2].message);
+  assert.deepEqual(getAvailableTestLengths(120).map((o) => o.enabled), [true, true, true, true]);
 });
 
 test('answer checking: single and multi-select', () => {

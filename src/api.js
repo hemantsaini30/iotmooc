@@ -24,4 +24,9 @@ export const api = {
   getAttempt: (id) => request(`/attempts/${id}`),
   checkAnswer: (id, questionId, selected) => request(`/attempts/${id}/check`, { method: 'POST', body: { questionId, selected } }),
   submitAttempt: (id) => request(`/attempts/${id}/submit`, { method: 'POST' }),
+  // Random tests (no per-question checking; graded on the server at submit time)
+  getTests: () => request('/tests'),
+  createTest: (length) => request('/tests', { method: 'POST', body: { length } }),
+  getTest: (id) => request(`/tests/${id}`),
+  submitTest: (id, answers) => request(`/tests/${id}/submit`, { method: 'POST', body: { answers } }),
 };
